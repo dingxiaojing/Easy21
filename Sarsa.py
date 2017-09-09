@@ -87,9 +87,10 @@ if __name__ == '__main__':
     # fig = plt.figure()
     # fig.suptitle("Sarsa")
     # ax = fig.add_subplot(111)
-    # ax.plot(range(1, len(all_mse_1)+1), all_mse_1)
-    # ax.plot(range(1, len(all_mse_2) + 1), all_mse_2)
+    # ax.plot(range(1, len(all_mse_1)+1), all_mse_1, label="lambda=0")
+    # ax.plot(range(1, len(all_mse_2) + 1), all_mse_2, label="lambda=1")
     # ax.set_xlabel("episode number")
     # ax.set_ylabel("Mean Square Error")
+    # ax.legend()
     # plt.show()
 
